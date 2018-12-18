@@ -1,0 +1,17 @@
+package com.springDemo;
+
+public class DemoBean {
+
+	public SampleBean sb;
+	public DemoBean(SampleBean sb)
+	{
+		this.sb =sb;
+	}
+	public void setSb(SampleBean sb) {
+		this.sb = sb;
+	}
+	public void show()
+	{
+		System.out.println("Dependency in the form of object");
+	}
+}
